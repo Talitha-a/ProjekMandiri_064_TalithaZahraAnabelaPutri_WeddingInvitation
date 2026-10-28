@@ -154,7 +154,17 @@ h2 {
 .bottom-page .copyright {font: .72rem Arial, sans-serif; margin: 40px 0 0;}
 
 /* particles */
-.particle {position: fixed; z-index: 0; top: -12px; width: 3px; height: 3px; border-radius: 50%; background: var(--gold); opacity: .5; pointer-events: none; animation: rise 5s linear infinite;}
+.particle {position: fixed;
+    z-index: 0;
+    top: -12px;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: var(--gold);
+    opacity: .5;
+    pointer-events: none;
+    animation: rise 5s linear infinite;
+}
 @keyframes rise {
     from {
         transform: translateY(100vh);
